@@ -28,8 +28,9 @@ C<br>
 5.molecular Analysis.<br>
 
 # AHSTGNN-Basic
-**AHSTGNN - Adaptive Hybrid Spatial Temporal Graph Neural Network.**
+**AHSTGNN - Adaptive Hybrid Spatial Temporal Graph Neural Network : **
 <br>
+
 It's used for cellular Traffic prediction.
 <br>
 The main goal is to predict mobile network traffic using both 
