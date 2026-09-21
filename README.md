@@ -12,8 +12,7 @@ Node: repersents an object or entity.
 Edges: represents connection between Nodes.
 <br>
 
-**example :**
-<br>
+**Example :** <br>
 A -- B<br>
 |<br>
 |<br>
@@ -28,7 +27,7 @@ C<br>
 5.molecular Analysis.<br>
 
 # AHSTGNN-Basic
-**AHSTGNN - Adaptive Hybrid Spatial Temporal Graph Neural Network : **
+**AHSTGNN - Adaptive Hybrid Spatial Temporal Graph Neural Network :**
 <br>
 
 It's used for cellular Traffic prediction.
@@ -40,9 +39,9 @@ The main goal is to predict mobile network traffic using both
     >> Spatial pattern (relationship with towers).
 <br>
 
-**Main Modules : **
+**Main Modules :**
 <br>
-**TCM ( Temporal Convolution Module ) : **
+**TCM ( Temporal Convolution Module ) :**
 <br>
 Learns traffic patterns over time
 <br>
@@ -67,26 +66,29 @@ combines spatial and temporal information adaptively.
 <br>
 Temporal graph neural network is a graph neural network which changes over time.
 
-**Example : **
-AT 9:00AM 
+**Example : **<br>
+AT 9:00AM <br>
 A -> B
+<br>
 
-AT 10:00AM
-A -> B
-B -> C
+AT 10:00AM<br>
+A -> B<br>
+B -> C<br>
 
 # commands
 **Clone repository : **<br>
 git clone <Link><br>
 
-**Install requirement :**
+**Install requirement :**<br>
 pip install -r requirements.txt
+<br>
 
-**Generate Training Data : **
+**Generate Training Data : **<br>
 python generate_Training_data.py
+<br>
 
-**Train Model :**
-python train.py --gcn_bool --adjtype doubletransition --addaptadj --randomadj
+**Train Model :**<br>
+python train.py --gcn_bool --adjtype doubletransition --addaptadj --randomadj<br>
 
 **Test Model : **
 python test.py
