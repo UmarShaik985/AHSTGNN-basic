@@ -62,11 +62,11 @@ combines spatial and temporal information adaptively.
   >> Network Resource Management.<br>
 
 # Temporal-Graph-Neural-Network
-**TGNN : **
+**TGNN :**
 <br>
 Temporal graph neural network is a graph neural network which changes over time.
 
-**Example : **<br>
+**Example :**<br>
 AT 9:00AM <br>
 A -> B
 <br>
@@ -76,19 +76,19 @@ A -> B<br>
 B -> C<br>
 
 # commands
-**Clone repository : **<br>
+**Clone repository :**<br>
 git clone <Link><br>
 
 **Install requirement :**<br>
 pip install -r requirements.txt
 <br>
 
-**Generate Training Data : **<br>
+**Generate Training Data :**<br>
 python generate_Training_data.py
 <br>
 
 **Train Model :**<br>
 python train.py --gcn_bool --adjtype doubletransition --addaptadj --randomadj<br>
 
-**Test Model : **
+**Test Model :**
 python test.py
