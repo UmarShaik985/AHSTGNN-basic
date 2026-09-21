@@ -6,6 +6,6 @@ It's used for cellular Traffic prediction
 <br>
 the main goal is to predict mobile network traffic using both 
 <br>
-    -  Temporal pattern (network traffic history)
+    -Temporal pattern (network traffic history)
 <br>
-    -  Spatial pattern (relationship with towers)
+    -Spatial pattern (relationship with towers)
