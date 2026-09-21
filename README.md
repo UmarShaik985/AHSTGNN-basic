@@ -18,6 +18,7 @@ A -- B<br>
 C<br>
 **Applications :**
 <br>
+
 1.fraud detection.<br>
 2.social networks.<br>
 3.traffic detection.<br>
