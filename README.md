@@ -35,7 +35,58 @@ It's used for cellular Traffic prediction.
 <br>
 The main goal is to predict mobile network traffic using both 
 <br>
-    - Temporal pattern (network traffic history).
+    >> Temporal pattern (network traffic history).
 <br>
-    - Spatial pattern (relationship with towers).
+    >> Spatial pattern (relationship with towers).
 <br>
+
+**Main Modules : **
+<br>
+**TCM ( Temporal Convolution Module ) : **
+<br>
+Learns traffic patterns over time
+<br>
+**AHGLM ( Adaptive Hybrid Graph Learning Module ) :**
+<br>
+Learns both static and dynamic graph relationships.
+<br>
+**STAM ( Spatial - temporal Adaptive Module ) :**
+<br>
+combines spatial and temporal information adaptively.
+<br>
+
+**Applications :**
+  >> Cellular Traffic Prediction.<br>
+  >> Smart Cities.<br>
+  >> Transportation Systems.<br>
+  >> IoT Networks.<br>
+  >> Network Resource Management.<br>
+
+# Temporal-Graph-Neural-Network
+**TGNN : **
+<br>
+Temporal graph neural network is a graph neural network which changes over time.
+
+**Example : **
+AT 9:00AM 
+A -> B
+
+AT 10:00AM
+A -> B
+B -> C
+
+# commands
+**Clone repository : **<br>
+git clone <Link><br>
+
+**Install requirement :**
+pip install -r requirements.txt
+
+**Generate Training Data : **
+python generate_Training_data.py
+
+**Train Model :**
+python train.py --gcn_bool --adjtype doubletransition --addaptadj --randomadj
+
+**Test Model : **
+python test.py
