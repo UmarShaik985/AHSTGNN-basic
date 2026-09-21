@@ -1,5 +1,5 @@
 # GNN-Basic
-**GNN ( Graph Neural Network )**
+**GNN ( Graph Neural Network )**<br>
 graph neural network is a Ai-model which works on Graphical structured data.
 <br>
 **Graph :**
