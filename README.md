@@ -11,6 +11,7 @@ Node: repersents an object or entity.
 Edges: represents connection between Nodes.
 <br>
 **example :**
+<br>
 A -- B<br>
 |<br>
 |<br>
