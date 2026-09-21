@@ -1,15 +1,18 @@
 # GNN-Basic
 **GNN ( Graph Neural Network )**<br>
+
 graph neural network is a Ai-model which works on Graphical structured data.
 <br>
 **Graph :**
 <br>
+
 A graph contains Nodes and Edges.
 <br>
 Node: repersents an object or entity.
 <br>
 Edges: represents connection between Nodes.
 <br>
+
 **example :**
 <br>
 A -- B<br>
